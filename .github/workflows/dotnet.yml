@@ -27,5 +27,6 @@ jobs:
       working-directory: WinFormsAppCSVToEXCEL/WinFormsAppCSVToEXCEL
     - name: Build
       run: dotnet build --no-restore
+      working-directory: WinFormsAppCSVToEXCEL/WinFormsAppCSVToEXCEL
     - name: Test
       run: dotnet test --no-build --verbosity normal
