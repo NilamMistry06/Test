@@ -24,6 +24,7 @@ jobs:
       working-directory: WinFormsAppCSVToEXCEL/WinFormsAppCSVToEXCEL
     - name: Restore dependencies
       run: dotnet restore 
+      working-directory: WinFormsAppCSVToEXCEL/WinFormsAppCSVToEXCEL
     - name: Build
       run: dotnet build --no-restore
     - name: Test
