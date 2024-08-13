@@ -22,7 +22,7 @@ jobs:
         dotnet-version: 7.0.x
     - name: Install dependencies
       run: dotnet restore
-      working-directory: WinFormsAppCSVToEXCEL\WinFormsAppCSVToEXCEL
+      working-directory: WinFormsAppCSVToEXCEL/WinFormsAppCSVToEXCEL
     - name: Restore dependencies
       run: dotnet restore 
     - name: Build
